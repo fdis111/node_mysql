@@ -1,0 +1,14 @@
+Les methodes POST,GET(index:tout) et GET(show:un) ont déjà été implementées
+
+1 - Vous devez implementer DELETE pour supprimer un enregistrement
+2 - Vous devez implementer PUT pour mettre à jour un enregistrement
+
+!NB : Vous devez créer une base de données nommée "kda_test" avec une table "student"
+      - La table students contient les colonnes suivantes :
+            => id:entier et clé primaire , 
+            => nom : text pouvant contenir 50 caractèrs
+            => prenom :text pouvant contenir 50 caractèrs
+            Il est à noter que tous les champs sont obligatoires!!
+            Les validations coté client ou serveur ne sont pas obligatoire,mais si voulez les faire,
+            allez-y!!!!
+    Bon courage!!!!  

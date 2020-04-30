@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= apprenant.prenom  %></title>
+</head>
+
+<body>
+    <a href="/apprenants">&lt;-Retourner à liste</a>
+    <h1><%= apprenant.prenom+" "+apprenant.nom %> </h1>
+    <p>Nom : <%= apprenant.nom %></p>
+    <p>Prenom : <%= apprenant.prenom %></p>
+    <button><a href="/apprenants/mod/<%= apprenant.id%>">Modifier</a></button>
+    <button> <a href="/apprenants/del/<%= apprenant.id %>">Supprimer</a></button>
+</body>
+
+</html>

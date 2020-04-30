@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="/apprenants">&lt;-Retourner à liste</a>
+    
+    <h1>Modifier l'apprenant <%= apprenant.prenom+" "+apprenant.nom %> </h1>
+    <form action="/apprenants/mod/<%= apprenant.id %>" method="POST">
+        <label for="nom">Nom</label><br>
+        <input type="text" name="nom" value="<%= apprenant.nom %>" />
+        <br><br>
+        <label for="prenom">Prenom</label><br>
+        <input type="text" name="prenom" value="<%= apprenant.prenom %>"/><br>
+        <input type="submit" value="Modifier" />
+    </form>
+</body>
+
+</html>
